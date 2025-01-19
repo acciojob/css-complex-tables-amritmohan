@@ -6,20 +6,26 @@ table {
   font-family: Arial, sans-serif;
   font-size: 14px;
   text-align: center;
-  border: 1px solid orange;
+  border-width: 0px 0px 1px 1px; /* Adjusting border-width as per test requirements */
+  border-style: solid;
+  border-color: rgb(255, 165, 0); /* Orange color */
 }
 
 thead th {
-  background-color: #888888;
-  color: white;
+  background-color: rgb(136, 136, 136); /* Dark grey */
+  color: rgb(255, 255, 255); /* White text */
   text-align: center;
   padding: 8px;
-  border: 1px solid orange;
+  border-width: 0px 0px 1px 1px; /* Border adjustments for headers */
+  border-style: solid;
+  border-color: rgb(255, 165, 0);
 }
 
 tbody td {
-  border: 1px solid orange;
-  padding: 5px;
+  border-width: 1px 1px 0px 0px; /* Border adjustments for data cells */
+  border-style: solid;
+  border-color: rgb(255, 165, 0); /* Orange border */
+  padding: 3px 5px; /* Padding as per test requirements */
 }
 
 tbody tr {
