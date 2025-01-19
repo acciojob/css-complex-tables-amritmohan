@@ -1,19 +1,38 @@
+/* Table styles */
 table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid orange;
-      text-align: center;
-      padding: 3px 5px;
-    }
-    th {
-      background-color: #888888;
-      color: white;
-    }
-    .sub-total-text {
-      text-align: right;
-    }
-    tbody tr.sub-total-row td {
-      font-weight: bold;
-    }
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid orange;
+}
+
+thead th {
+  background-color: #888888;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid orange;
+}
+
+tbody td {
+  border: 1px solid orange;
+  padding: 5px;
+}
+
+tbody tr {
+  text-align: center;
+}
+
+.sub-total-row .sub-total-text {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.sub-total-row td {
+  font-weight: bold;
+  background-color: #f8f8f8;
+}
